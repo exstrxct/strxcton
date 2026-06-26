@@ -12,19 +12,19 @@ A few things:
 ## Building
 There are **2** versions of Strxcton, if you'd like to use the stable version of strxcton, please use the following loadstring
 ```lua
-local strxcton = loadstring(game:HttpGet("https://raw.githubusercontent.com/exstrxct/exploiting/refs/heads/main/Libraries/UI/strxcton/stable.luau"))()
+local strxcton = loadstring(game:HttpGet("https://raw.githubusercontent.com/exstrxct/strxcton/refs/heads/main/rel/stable.luau"))()
 ```
 
 As for the beta version, this will include features that we have not yet added, it may be unstable at times.
 ```lua
-local strxcton = loadstring(game:HttpGet("https://raw.githubusercontent.com/exstrxct/exploiting/refs/heads/main/Libraries/UI/strxcton/beta.luau"))()
+local strxcton = loadstring(game:HttpGet("https://raw.githubusercontent.com/exstrxct/strxcton/refs/heads/main/rel/dev.luau"))()
 ```
 
 After loading, use `strxcton.new()`
 
 ```lua
 -- Code snippet
-local strxcton = loadstring(game:HttpGet("https://raw.githubusercontent.com/exstrxct/exploiting/refs/heads/main/Libraries/UI/strxcton/stable.luau"))()
+local strxcton = loadstring(game:HttpGet("https://raw.githubusercontent.com/exstrxct/strxcton/refs/heads/main/rel/stable.luau"))()
 
 local UI = strxcton.new()
 ```

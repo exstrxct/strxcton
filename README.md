@@ -15,7 +15,7 @@ There are **2** versions of Strxcton, if you'd like to use the stable version of
 local strxcton = loadstring(game:HttpGet("https://raw.githubusercontent.com/exstrxct/strxcton/refs/heads/main/rel/stable.luau"))()
 ```
 
-As for the beta version, this will include features that we have not yet added, it may be unstable at times.
+As for the dev version, this will include features that we have not yet added, it may be unstable at times.
 ```lua
 local strxcton = loadstring(game:HttpGet("https://raw.githubusercontent.com/exstrxct/strxcton/refs/heads/main/rel/dev.luau"))()
 ```
